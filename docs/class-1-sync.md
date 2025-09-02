@@ -24,7 +24,7 @@ This document covers Sync.
 
 ## Measure twice, cut once
 
-Let's discuss some basic considerations for running Zcash infrastructure. In this section, you'll:
+Let's discuss some basic considerations for running Zcash ructure. In this section, you'll:
 
 1. Learn _what_ it means to host a Zcash node.
 1. Choose _where_ to host your Zcash node: externally, or self-hosted?
@@ -45,7 +45,7 @@ It also may be helpful to remember that, in this workshop, we will not be storin
 
 ##  _What_ does it mean to host a Zcash "node"?
 
-A *Zcash "node"* is the term for the primary infrastructure component in the Zcash network. They are called nodes because they make up a network of bidirectionally communicating networked software applications called *servers* that implement the [Zcash protocol specification](https://zips.z.cash/protocol/protocol.pdf).
+A *Zcash "node"* is the term for the primary ructure component in the Zcash network. They are called nodes because they make up a network of bidirectionally communicating networked software applications called *servers* that implement the [Zcash protocol specification](https://zips.z.cash/protocol/protocol.pdf).
 
 ### Types of Zcash nodes
 
@@ -85,7 +85,7 @@ Regardless of which hosting provider you choose, you'll want to somehow obtain a
 But computers are everywhere! You might even have an extra one or two (or, if you're anything like us, three) in your house. It can be fun to host useful things on computers in your house. Many people do this, even using multiple computers. It's called a "home lab!"
 
 > [!TIP]
-> If you're very excited by the idea of building a home lab, we recommend you have a look at [Proxmox](https://www.proxmox.com/). Using the Proxmox Virtual Environment, you can network multiple physical machines in your home together to create a virtualization platform similar to Amazon AWS's EC2 or Google GCP's GCE offering, complete with programmatic API access. In other words, Proxmox VE is a self-hostable, open source Infrastruture-as-a-Service platform that you can use to pool your physical machine's hardware capabilities and "rent" it back out to yourself very much like how Amazon and Google rents such resources back to you.
+> If you're very excited by the idea of building a home lab, we recommend you have a look at [Proxmox](https://www.proxmox.com/). Using the Proxmox Virtual Environment, you can network multiple physical machines in your home together to create a virtualization platform similar to Amazon AWS's EC2 or Google GCP's GCE offering, complete with programmatic API access. In other words, Proxmox VE is a self-hostable, open source Infrastructure-as-a-Service platform that you can use to pool your physical machine's hardware capabilities and "rent" it back out to yourself very much like how Amazon and Google rents such resources back to you.
 
 There are downsides to hosting something at home, however:
 1. The computer needs to be online all of the time, never rebooting, which means that ideally it is also on a battery backup, called an uninterruptible power supply (or UPS for short).
